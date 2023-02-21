@@ -1,0 +1,186 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+::selection{
+  color: #000;
+  background: #fff;
+}
+nav{
+  position: fixed;
+  background: #1b1b1b;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 12;
+}
+nav .menu{
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.menu .logo a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+.menu ul{
+  display: inline-flex;
+}
+.menu ul li{
+  list-style: none;
+  margin-left: 7px;
+}
+.menu ul li:first-child{
+  margin-left: 0px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.menu ul li a:hover{
+  background: #fff;
+  color: black;
+}
+.img{
+  background: url('3.jpg')no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.img::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+.center{
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 10 20px;
+  text-align: center;
+}
+.center .title{
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+}
+.center .sub_title{
+  color: #fff;
+  font-size: 50px;
+  font-weight: 600;
+}
+.center .btns{
+  margin-top: 70px;
+}
+.center .btns a{
+  height: 55px;
+  width: 170px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border: 2px solid white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+}
+.center .btns a:first-child{
+  color: #fff;
+  background: none;
+}
+.btns a:first-child:hover{
+  background: white;
+  color: black;
+}
+#about{  
+    padding: 25 10px;
+    margin-top: 0px;
+    color: white;
+    background-color: black;
+    text-align: left;
+}
+h1{
+  color: white;
+  font-size:40px;
+}
+h2{
+  color: white;
+  text-align: center;
+  font-size: larger;
+  padding: 50 10px;
+  
+}
+h3{
+  padding: 10 0px;
+}
+.pic{
+  background: url('9.jpg')no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.pic::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+#contact{
+  background-color: black;
+}
+input[type=text],[type=email]{
+    width:100%;
+    padding: 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+select{
+    width: 50%;
+    padding: 1px 20px;
+
+}
+input[type=submit]{
+    color: black;
+    padding: 5px 40px;
+    cursor: pointer;
+}
+fieldset{
+    border-radius: 10px;
+    color: white;
+    background-color:black;
+    
+}
+legend{
+  padding-top: 5px;
+}
+form{
+  padding:70 0px;
+}
+
