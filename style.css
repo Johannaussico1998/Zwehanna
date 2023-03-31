@@ -184,3 +184,19 @@ form{
   padding:70 0px;
 }
 
+footer{ 
+   text-align: center; 
+   background-color: rgb(19, 19, 84); 
+   padding-left: 50px; 
+   padding-right: 50px; 
+ } 
+ footer ul{ 
+   display: flex; 
+   padding-left: 100px; 
+   flex-direction:row-reverse; 
+   align-items: center; 
+   justify-content: flex-start; 
+ } 
+ footer ul a { 
+   color: black; 
+ }
